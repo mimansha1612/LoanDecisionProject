@@ -19,7 +19,20 @@ We used the **LendingClub Loan Data (2007–2018)** dataset for this project.
   - `fico_range_low`, `fico_range_high` – Credit scores  
   - `purpose`, `term` – Loan purpose and term  
 - Target: `loan_status` (0 = Fully Paid, 1 = Default)
-
+ 
+Loan-Approval-ML-RL-Project/
+│
+├── data/
+│ └── accepted_2007_to_2018Q4.csv
+│
+├── notebooks/
+│ ├── 1_EDA_Preprocessing.ipynb
+│ ├── 2_DL_Model.ipynb
+│ └── 3_Offline_RL.ipynb
+│
+├── requirements.txt
+├── README.md
+└── report.pdf
 ---
 
 ## Task 1: Exploratory Data Analysis & Preprocessing
@@ -84,3 +97,11 @@ We used the **LendingClub Loan Data (2007–2018)** dataset for this project.
 - Offline RL Agent
 
 - Metrics are printed at the end of each section.
+
+---
+
+## Result
+DL Model: AUC = 0.704, F1-score = 0.092
+
+Offline RL Agent: Estimated Policy Value (Average Reward) = -1644.23
+
