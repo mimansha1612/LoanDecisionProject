@@ -91,15 +91,17 @@ We used the **LendingClub Loan Data (2007–2018)** dataset for this project.
 Loan-Approval-ML-RL-Project/
 │
 ├── data/
-│ └── accepted_2007_to_2018Q4.csv
+│   └── accepted_2007_to_2018Q4.csv
 │
 ├── notebooks/
-│ ├── 1_EDA_Preprocessing.ipynb
-│ ├── 2_DL_Model.ipynb
-│ └── 3_Offline_RL.ipynb
+│   ├── 1_EDA_Preprocessing.ipynb
+│   ├── 2_DL_Model.ipynb
+│   └── 3_Offline_RL.ipynb
 │
 ├── requirements.txt
 ├── README.md
+└── report.pdf
+
 
 ---
 
