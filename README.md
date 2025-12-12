@@ -32,7 +32,7 @@ Loan-Approval-ML-RL-Project/
 │
 ├── requirements.txt
 ├── README.md
-└── report.pdf
+
 ---
 
 ## Task 1: Exploratory Data Analysis & Preprocessing
